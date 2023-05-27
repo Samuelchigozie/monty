@@ -10,7 +10,7 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void func_stack(stack_t **head, unsigned int counter)
+void func_stack(ter_stack **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
