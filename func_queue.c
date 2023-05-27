@@ -32,7 +32,7 @@ void queue_add(ter_stack **head, int n)
 	ter_stack *new_node, *aux;
 
 	aux = *head;
-	new_node = malloc(sizeof(stack_t));
+	new_node = malloc(sizeof(ter_stack));
 	if (new_node == NULL)
 	{
 		printf("Error\n");
