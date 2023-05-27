@@ -10,9 +10,9 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void pall_fun(stack_t **head, unsigned int counter)
+void pall_fun(ter_stack **head, unsigned int counter)
 {
-	stack_t *h;
+	ter_stack *h;
 	(void)counter;
 
 	h = *head;
