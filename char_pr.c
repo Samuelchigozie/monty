@@ -12,7 +12,7 @@
  * Note: This function does not return a value.
  * Author: Samuuel Chigozie
  */
-void func_pchar(stack_t **head, unsigned int counter)
+void func_pchar(ter_stack **head, unsigned int counter)
 {
 	stack_t *h;
 
