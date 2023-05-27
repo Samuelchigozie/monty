@@ -29,7 +29,7 @@ void queue_func(ter_stack **head, unsigned int counter)
  */
 void queue_add(ter_stack **head, int n)
 {
-	stack_t *new_node, *aux;
+	ter_stack *new_node, *aux;
 
 	aux = *head;
 	new_node = malloc(sizeof(stack_t));
