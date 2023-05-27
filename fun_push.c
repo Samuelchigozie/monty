@@ -10,7 +10,7 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void f_push(ter_stack **head, unsigned int counter)
+void push_fun(ter_stack **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
 
