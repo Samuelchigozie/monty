@@ -13,9 +13,9 @@
  * Note: This function does not return a value.
  * Author: Samuuel Chigozie
  */
-void prstr_func(stack_t **head, unsigned int counter)
+void prstr_func(ter_stack **head, unsigned int counter)
 {
-	stack_t *h;
+	ter_stack *h;
 	(void)counter;
 
 	h = *head;
