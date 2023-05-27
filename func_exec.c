@@ -8,7 +8,7 @@
 * Return: There is no return
 * Author: Samuel Chigozie
 */
-int func_execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
+int func_execute(char *content, ter_stack **stack, unsigned int counter, FILE *file)
 {
 	ter_instruct opst[] = {
 				{"push", push_fun}, {"pall", pall_fun}, {"pint", pint_func},
