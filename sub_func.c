@@ -11,9 +11,9 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void sub_func(stack_t **head, unsigned int counter)
+void sub_func(ter_stack **head, unsigned int counter)
 {
-	stack_t *aux;
+	ter_stack *aux;
 	int sus, nodes;
 
 	aux = *head;
