@@ -10,9 +10,9 @@
  * Note: This function does not return a value.
  * Author: Samuuel Chigozie
  */
-void func_pop(stack_t **head, unsigned int counter)
+void func_pop(ter_stack **head, unsigned int counter)
 {
-	stack_t *h;
+	ter_stack *h;
 
 	if (*head == NULL)
 	{
