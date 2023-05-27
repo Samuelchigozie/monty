@@ -11,9 +11,9 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void multi_func(stack_t **head, unsigned int counter)
+void multi_func(ter_stack **head, unsigned int counter)
 {
-	stack_t *h;
+	ter_stack *h;
 	int len = 0, aux;
 
 	h = *head;
