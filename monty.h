@@ -58,6 +58,7 @@ typedef struct instruction_s
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
+void push_fun(ter_stack **head, unsigned int number);
 void queue_func(ter_stack **head, unsigned int counter);
 void func_stack(ter_stack **head, unsigned int counter);
 void pint_func(ter_stack **head, unsigned int number);
@@ -77,6 +78,5 @@ void func_rotat(ter_stack **head, unsigned int counter);
 void stack_rotat(ter_stack **head, __attribute__((unused)) unsigned int counter);
 void func_pop(ter_stack **head, unsigned int counter);
 void swap_func(ter_stack **head, unsigned int counter);
-void push_fun(ter_stack **head, unsigned int number);
 void pall_fun(ter_stack **head, unsigned int number);
 #endif
