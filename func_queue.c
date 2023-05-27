@@ -10,7 +10,7 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void queue_func(stack_t **head, unsigned int counter)
+void queue_func(ter_stack **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
@@ -27,7 +27,7 @@ void queue_func(stack_t **head, unsigned int counter)
  * It takes the value of the new node and the head of the stack as parameters.
  * Note: This function does not return a value.
  */
-void queue_add(stack_t **head, int n)
+void queue_add(ter_stack **head, int n)
 {
 	stack_t *new_node, *aux;
 
