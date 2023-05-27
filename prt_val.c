@@ -10,7 +10,7 @@
  * Note: This function does not return a value.
  * Author: Samuuel Chigozie
  */
-void pint_func(stack_t **head, unsigned int counter)
+void pint_func(ter_stack **head, unsigned int counter)
 {
 	if (*head == NULL)
 	{
