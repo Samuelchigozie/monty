@@ -10,9 +10,9 @@
  * Note: This function does not return a value.
  * Author: Samuel Chigozie
  */
-void stack_rotat(stack_t **head, __attribute__((unused)) unsigned int counter)
+void stack_rotat(ter_stack **head, __attribute__((unused)) unsigned int counter)
 {
-	stack_t *copy;
+	ter_stack *copy;
 
 	copy = *head;
 	if (*head == NULL || (*head)->next == NULL)
